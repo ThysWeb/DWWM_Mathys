@@ -1,0 +1,78 @@
+body {
+    height: 95vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+header{
+    text-align: center;
+    font-size: 2em;
+    color: white;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* background-color: rgba(255, 255, 255, 0.5); */
+    border-radius: 20px;
+    width: 80vh;
+    padding: 2vh 0;
+}
+.ligne{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2vh 0;
+}
+form{
+    flex:3;
+    margin:0;
+}
+.info{
+    flex: 1;
+}
+img{
+    width: 20px;
+}
+.imgVerte, .imgRouge{
+    visibility: hidden;
+    flex: 0,5;
+    padding: 2vh;
+}
+#submit{
+    width: 15vw;
+}
+label{
+    padding-right: 10px;
+    flex: 1;
+    color: white;
+}
+input{
+    margin-right: 0;
+    height: 30px;
+    text-indent: 10px;
+    flex:2;
+    border-color: white;
+}
+
+.message{
+    flex: 1;
+    padding: 1vh 0;
+    color: white;
+}
+.bouton{
+    flex: 2;
+    justify-content: center;
+    padding-left: 15vw;
+}
+
+#eye{
+    /* flex: 0,5; */
+    padding: 0.90vh 1vw;
+    background-color: black;
+}

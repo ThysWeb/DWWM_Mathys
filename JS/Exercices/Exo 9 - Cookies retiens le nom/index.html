@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Formulaire avec nom et prénom cookie</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="content">
+        <header>Formulaire avec nom et prénom cookie</header>
+        <div id="container">
+
+            <div id="form">
+                <form name="identity" id="identity">
+                    <div class="ligne">
+                        <label for="nom">Nom</label>
+                        <input type="text" id="nom" placeholder="Votre nom">
+                    </div>
+                    <div class="ligne">
+                        <label for="prenom">Prénom</label>
+                        <input type="text" id="prenom" placeholder="Votre prénom">
+                    </div>
+                    <div class="ligne">
+                        <input type="submit" value="Envoyer mes données">
+                    </div>
+                </form>
+            </div>
+
+            <div id="connected">
+                <span class="ligne" id="message"></span>
+                <div class="ligne">
+                    <button id="delete">Supprimer mes données</button>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <script src="../cookies.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
