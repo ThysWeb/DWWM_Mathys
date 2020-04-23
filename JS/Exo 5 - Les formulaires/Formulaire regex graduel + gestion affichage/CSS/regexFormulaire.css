@@ -16,13 +16,6 @@ form{
     background-color: rgba(95, 96, 99,0.5);
 }
 
-#header{
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    justify-content: center;
-}
-
 h1 {
     margin-bottom: 3vw;
     color: white;

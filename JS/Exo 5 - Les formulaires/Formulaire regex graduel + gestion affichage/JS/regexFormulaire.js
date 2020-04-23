@@ -7,7 +7,13 @@ var erreurs = {
     "nom": 0,
     "postal": 0
 }
-ActiveValider();
+
+function annule(){
+    event.preventDefault()
+}
+document.getElementById("prenom").addEventListener("paste",annule);
+document.getElementById("prenom").addEventListener("copy",annule);
+document.getElementById("postal").addEventListener("wheel",annule);
 
 function verif(event) {
     // permet de controller la validité d'un champ du formulaire
