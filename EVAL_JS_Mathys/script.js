@@ -1,3 +1,4 @@
+//let = permet d’utiliser une variable sans devoir l’instance a chaque fois
 let capital 
 let taux
 let duree
@@ -56,6 +57,7 @@ function ActiveValider() {
 
 //Fonction qui va permettre de calculer le cout de la mensualité  mais qui ne fonctionne pas :/
 function mensualite(){
+    //$("#nomVar") = permet d’appeler les ID des labels dans les pages html
     $("#mensualite") = ($("#capital")*$("#taux")/12)/(1-Math.pow(1+$("#taux")/12, $("#duree"))
     //mensualite = (capital * taux/12)/(1 - Math.pow(1 + taux/12, -duree))
 }
