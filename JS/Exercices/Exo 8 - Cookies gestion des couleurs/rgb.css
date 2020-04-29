@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+div,
+input{
+    display: flex;
+    flex: 1;
+}
+
+#container{
+    flex-direction: column;
+}
+#titre-couleurs{
+    font-size: 3em;
+    color: red;
+}
+
+.couleur{
+    padding: 75px;
+}
+
+.case{
+    flex-direction: column;
+    padding: 0 10px 0 0;
+}
+
+input{
+    margin: 5px 10px 5px 10px;
+}
+
+button{
+    margin: 5px 10px 5px 10px;
+}
