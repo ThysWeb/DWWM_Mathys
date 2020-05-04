@@ -2,12 +2,12 @@
 # This file is distributed under the same license as the Themes - Twenty Twenty package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2019-12-13 06:28:05+0000\n"
+"PO-Revision-Date: 2020-05-04 10:25:06+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: GlotPress/2.4.0-alpha\n"
+"X-Generator: GlotPress/3.0.0-alpha\n"
 "Language: fr\n"
 "Project-Id-Version: Themes - Twenty Twenty\n"
 
@@ -129,6 +129,10 @@ msgstr "Avec ses sept étages d’architecture remarquable, le E-Mucem présente
 #: inc/starter-content.php:104 inc/starter-content.php:119
 msgid "Read More"
 msgstr "Lire la suite"
+
+#: inc/starter-content.php:129
+msgid "&#8220;Cyborgs, as the philosopher Donna Haraway established, are not reverent. They do not remember the cosmos.&#8221;"
+msgstr "« Les cyborgs, comme l’a fait remarquer la philosophe Donna Haraway, ne sont pas respectueux. Ils ne se souviennent pas du cosmos. »"
 
 #: classes/class-twentytwenty-customize.php:395
 msgid "Overlay Opacity"
