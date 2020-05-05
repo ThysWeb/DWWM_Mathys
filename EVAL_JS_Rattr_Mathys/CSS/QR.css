@@ -1,0 +1,39 @@
+body {
+    background-color:paleturquoise;
+    display: flex;
+    justify-content: center;
+    min-width:600px;
+    overflow: auto;
+}
+
+.contenu {
+    margin: 8vw 8vw;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+}
+
+.centrer {
+    text-align: center;
+}
+
+.ligne {
+    flex-direction: row;
+    margin: 1vw 0;
+}
+.reponse{
+    flex: 0.5;
+}
+.message {
+    flex: 0.5;
+    font-weight: bold;
+    color: red;
+}
+.titre{
+    font-weight: bold;
+    color: darkblue;
+}
